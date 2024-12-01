@@ -1,0 +1,53 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+  .contact-img {
+    width: 150px;
+  }
+  .contact-heading {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #3d3d3d;
+  }
+  
+
+  
+.home-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.home-header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.home-body {
+    display: flex;
+    flex: 1;
+}
+
+/* Sidebar CSS */
+.sidebar {
+    width: 250px;
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+}
+
+
+
+/* Content CSS */
+.content {
+    flex: 1;
+    padding: 2rem;
+    background-color: #fff;
+    overflow-y: auto;
+}

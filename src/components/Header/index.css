@@ -1,0 +1,43 @@
+.nav-header {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    border-bottom: 1px solid rgb(243, 243, 243);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-header {
+      flex-direction: column;
+      align-items: center;
+      border-bottom-style: none;
+    }
+  }
+  
+  .nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1110px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  @media screen and (max-width: 768px) {
+    .nav-content {
+      flex-direction: column;
+    }
+  }
+  
+  
+  .nav-bar-large-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    max-width: 1110px;
+  }
+
+
+  
+  
+  
